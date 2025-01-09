@@ -56,7 +56,7 @@ Run the Python script manually or let the cron job handle it
 - Open your Obsidian note with the JavaScript code.
 - Visualizations for the last week and monthly summary will be displayed.
 
-![Weekly Habit Summary](docs/Habit_tracker_plot.png)
+![Weekly Habit Summary](docs/Habit_summary_plot.png)
 
 ## Contributing
 
