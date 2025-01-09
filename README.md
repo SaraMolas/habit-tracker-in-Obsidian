@@ -28,18 +28,22 @@ Plot summary of weekly habits from Google Calendar in Obsidian note
    git clone https://github.com/SaraMolas/habit-tracker-in-Obsidian.git
    cd habit-tracker
    ```
-2. Install Python dependencies:
+2. Update the Python script, to customize the following parameters:
+   - Path to your Obsidian vault: Update the script with the file path to your Obsidian vault where the results will be stored.
+   - Select specific calendars (Optional): If you don’t want to extract data from all your Google Calendars (e.g., to exclude shared calendars like work meetings), modify the script to include only the names of the calendars you want to track.
+
+3. Install Python dependencies:
    ```bash
    pip install -r scripts/requirements.txt
    ```
-3. Set up your Google Calendar API:
+4. Set up your Google Calendar API:
    - Place your `credentials.json` file in the `scripts/` directory.
    - Follow [Google's API setup guide](https://developers.google.com/calendar/quickstart/python) for more details.
 
-4. Set up the cron job:
+5. Set up the cron job:
    - Refer to `cron/cron_setup.md` for instructions on scheduling weekly data extraction.
 
-5. Add the JavaScript code:
+6. Add the JavaScript code:
    - Copy the contents of `js/plot.js` into an Obsidian note where you want to display the visualizations.
 
 ## Usage
