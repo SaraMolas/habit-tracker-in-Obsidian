@@ -44,8 +44,14 @@ Plot summary of weekly habits from Google Calendar in Obsidian note
    - Refer to `docs/cron_setup.md` for instructions on scheduling weekly data extraction.
 
 6. Set up the visualization in Obsidian:
-   - Follow the instructions in `docs/Obsidian_setup.md` to set up the summary visualization in an Obsidian note file. 
-   - Copy the contents of `scripts/plot_in_Obsidian.js` into an Obsidian note where you want to display the visualizations.
+   - Follow the Setup Instructions: Refer to the detailed instructions in docs/Obsidian_setup.md to configure the summary visualization in an Obsidian note. This includes:
+      - Installing the required Community Plugins.
+      - Copying the contents of `scripts/plot_in_Obsidian.js` into an Obsidian note where you want to display the visualization.
+
+   - Understand the Visualization: The visualization displays:
+      - A summary of the last week’s tracked hours for different categories (e.g., Work, Hobbies, Workout).
+      - Goals for the week are represented as semi-transparent bars in the plot.
+      - Actual hours tracked are displayed in more opaque bars, layered over the goal bars. This allows you to easily see whether the goal has been achieved or how much progress has been made. For example: If your goal is to work out for 7 hours a week (1 hour daily), a semi-transparent bar will represent this target. The actual hours worked out will overlay this bar, making it visually clear if the goal was reached. 
 
 ## Usage
 
